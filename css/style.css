@@ -177,9 +177,6 @@ li:has(> .close-btn) {
   width: 100%;
 }
 
-.banner-article {
-}
-
 .banner-article h3 {
   font-size: 2rem;
 }
@@ -243,6 +240,15 @@ li:has(> .close-btn) {
 
   .banner-article {
     text-align: center;
+  }
+
+  .banner-article p {
+    padding: 0 10px;
+  }
+
+  .banner-img {
+    padding-right: 0;
+    max-width: 80vw;
   }
 }
 
