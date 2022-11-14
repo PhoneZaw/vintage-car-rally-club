@@ -379,7 +379,7 @@ main.home {
 
   .banner-img {
     padding-right: 0;
-    max-width: 80vw;
+    width: 95vw;
   }
 
   .banner-container {
