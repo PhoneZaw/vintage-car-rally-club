@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vintage Car Rally Club</title>
     <link rel="stylesheet" href="./css/style.css" defer />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" /> -->
   </head>
 
   <body>
@@ -25,7 +25,7 @@
           <li><a href="./contact.html"> Contact Us</a></li>
         </ul>
       </nav>
-      <a href="./register.html" class="reg-btn nav-lg">Register Now</a>
+      <a href="./register.html" class="reg-btn nav-lg">Register Online</a>
       <nav class="nav-sm" tabindex="0">
         <p class="menu-btn">
           <svg
@@ -52,86 +52,113 @@
           <li><a href="./q&a.html"> Q&A</a></li>
           <li><a href="./contact.html"> Contact Us</a></li>
           <li>
-            <a href="./register.html" class="reg-btn nav-sm">Register Now</a>
+            <a href="./register.html" class="reg-btn nav-sm">Register Online</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main>
+    <main class="home">
+      <div class="bg-text">Vintage Car Rally Club</div>
       <div class="banner-container">
         <div>
           <section class="banner">
             <div class="banner-img">
-              <img src="./media/car1.png" alt="car" />
+              <img src="./media/car1.webp" alt="car" />
             </div>
             <article class="banner-article">
-              <h3>This is a car.</h3>
+              <h3>Vintage Car Rallies</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
-                autem fugit exercitationem, vero adipisci cumque assumenda
-                placeat! Quam, provident ipsa. Qui quidem, error eveniet eum rem
-                sit fugiat esse soluta!
+                We hold rallies for vintage car owners every year. Become a
+                member of the vintage car rally club and win prizes. Join Here
               </p>
-              <button class="reg-btn">
+              <a href="./register.html" class="reg-btn nav-lg">
                 Register <span>&RightArrow;</span>
-              </button>
-              <button class="reg-btn contact-btn">
+              </a>
+              <a href="./contact.html" class="reg-btn nav-lg contact-btn">
                 Contact Us <span>&RightArrow;</span>
-              </button>
+              </a>
             </article>
           </section>
         </div>
         <div>
           <section class="banner">
             <div class="banner-img">
-              <img src="./media/car1.png" alt="car" />
+              <img src="./media/car2.jpg" alt="car" />
             </div>
             <article class="banner-article">
-              <h3>This is Second</h3>
+              <h3>Vintage Car Rallies</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
-                autem fugit exercitationem, vero adipisci cumque assumenda
-                placeat! Quam, provident ipsa. Qui quidem, error eveniet eum rem
-                sit fugiat esse soluta!
+                We hold rallies for vintage car owners every year. Become a
+                member of the vintage car rally club and win prizes. Join Here
               </p>
-              <button class="reg-btn">
+              <a href="./register.html" class="reg-btn nav-lg">
                 Register <span>&RightArrow;</span>
-              </button>
-              <button class="reg-btn contact-btn">
+              </a>
+              <a href="./contact.html" class="reg-btn contact-btn">
                 Contact Us <span>&RightArrow;</span>
-              </button>
+              </a>
             </article>
           </section>
         </div>
         <div>
           <section class="banner">
             <div class="banner-img">
-              <img src="./media/car1.png" alt="car" />
+              <img src="./media/car3.png" alt="car" />
             </div>
             <article class="banner-article">
-              <h3>This is third</h3>
+              <h3>Vintage Car Rallies</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
-                autem fugit exercitationem, vero adipisci cumque assumenda
-                placeat! Quam, provident ipsa. Qui quidem, error eveniet eum rem
-                sit fugiat esse soluta!
+                We hold rallies for vintage car owners every year. Become a
+                member of the vintage car rally club and win prizes. Join Here
               </p>
-              <button class="reg-btn">
+              <a href="./register.html" class="reg-btn nav-lg">
                 Register <span>&RightArrow;</span>
-              </button>
-              <button class="reg-btn contact-btn">
+              </a>
+              <a href="./contact.html" class="reg-btn contact-btn">
                 Contact Us <span>&RightArrow;</span>
-              </button>
+              </a>
             </article>
           </section>
         </div>
       </div>
+
       <!-- <div class="slide-index">
         <div></div>
         <div></div>
         <div></div>
       </div> -->
     </main>
+    <footer>
+      <!-- Social Icon -->
+      <div class="social">
+        <a href="#"><img src="./media/facebook.svg" alt="facebook" /></a>
+        <a href="#"><img src="./media/instagram.svg" alt="facebook" /></a>
+        <a href="#"><img src="./media/email.png" alt="facebook" /></a>
+      </div>
+      <p><strong>Vintage Car Rally Club</strong></p>
+      <p>&copy; Copyright | 2022</p>
+    </footer>
+    <!-- Modal -->
+    <div id="modal" class="bg-overlay">
+      <div class="reg-modal">
+        <div class="reg-modal-header">
+          <h3>Login</h3>
+          <a href="#" class="close-btn close-form-btn">&times;</a>
+        </div>
+        <form class="reg-form" action="#">
+          <label>
+            Email Address *
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Password *
+            <input type="password" name="password" required />
+          </label>
+
+          <button class="reg-btn reg-form-btn" type="submit">Login</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
