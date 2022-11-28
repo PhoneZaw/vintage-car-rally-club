@@ -134,7 +134,7 @@ nav.nav-lg > ul > li > a {
   transition: border-color 0.8s;
 }
 
-nav.nav-lg > ul > li > a[active],
+nav.nav-lg > ul > li > a.active,
 nav.nav-lg > ul > li > a:hover,
 nav.nav-lg > ul > li > a:focus {
   border-color: var(--color);
@@ -226,7 +226,6 @@ li:has(> .close-btn) {
     translate: 0 -1000px;
     transition: translate 1s ease-out;
     transition-delay: 0.3s;
-    display: hidden;
   }
 
   .nav-sm:focus ul {
@@ -588,6 +587,10 @@ select::placeholder {
 }
 
 /* about page */
+iframe {
+  width: 90%;
+  aspect-ratio: 16/9;
+}
 .about {
   min-height: calc(100vh - 90px);
   display: flex;
